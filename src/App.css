@@ -1,0 +1,230 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.3;
+  max-width: 1560px;
+  min-width: 1444px;
+  background-color: #E9D9BB;
+}
+body .decorative__break {
+  width: 50%;
+  margin-top: 50px;
+  border-bottom: 2px solid #283618;
+}
+body .hero__banner {
+  height: 475px;
+  margin-top: 50px;
+}
+body .text__box {
+  margin-left: 60px;
+  margin-top: 90px;
+  width: 735px;
+  color: #283618;
+}
+body .text__box h1 {
+  font-size: 75px;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 90%;
+  margin: 0;
+}
+body .text__box p {
+  margin-top: 12px;
+  font-size: 26px;
+}
+body .text__box button {
+  background-color: #AA6E43;
+  border: none;
+  border-radius: 75px;
+  margin-top: 15px;
+  height: 60px;
+  width: 180px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FEFAE0;
+  position: absolute;
+  left: 20%;
+  transform: translate(-25%, -25%);
+  cursor: pointer;
+}
+body .hero__image {
+  margin-right: 60px;
+}
+body .hero__image img {
+  width: 100%;
+  height: 425px;
+  margin: auto;
+}
+body .products {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3.125rem;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 24px;
+  text-align: center;
+  color: #283618;
+}
+body .product__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-top: 50px;
+  border: 2px #283618 solid;
+  border-radius: 75px;
+  overflow: visible;
+}
+body .product__card button {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  height: 60px;
+  width: 180px;
+  background-color: #AA6E43;
+  border: none;
+  border-radius: 75px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FEFAE0;
+  cursor: pointer;
+}
+body .product__picture {
+  width: 95%;
+  margin: auto;
+}
+body .top__pick {
+  position: relative;
+  top: -40px;
+  right: -190px;
+  margin-bottom: -119px;
+}
+body .model__banner {
+  position: relative;
+  margin-top: 50px;
+}
+body .model__banner img {
+  display: block;
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+body .model__banner .banner__text {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  height: 300px;
+  width: 600px;
+}
+body .model__banner .banner__text h3 {
+  color: #283618;
+  text-align: left;
+  font-size: 70px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 90%;
+}
+body .model__banner .banner__text p {
+  font-size: 20px;
+  color: #283618;
+  text-align: left;
+}
+body .organic__img img {
+  width: 100%;
+  margin-top: 50px;
+}
+body .newsletter__container {
+  margin-top: 50px;
+  text-align: center;
+  padding: 0;
+  line-height: 90%;
+  color: #283618;
+}
+body .newsletter__container h2 {
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 800;
+}
+body .newsletter__container p {
+  margin-top: -20px;
+}
+body .newsletter__container .email__container input {
+  height: 45px;
+  width: 388px;
+  margin-right: 45px;
+  border: 2px #283618 solid;
+  border-radius: 75px;
+  background-color: #FEFAE0;
+}
+body .newsletter__container .email__container button {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  height: 45px;
+  width: 108px;
+  background-color: #AA6E43;
+  border: none;
+  border-radius: 75px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #FEFAE0;
+  cursor: pointer;
+}
+body footer {
+  margin-top: 100px;
+  background-color: #AA6E43;
+}
+body footer img {
+  width: 100%;
+}
+
+nav {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 75px;
+  border-color: #283618;
+  padding: 15px;
+  margin: 20px;
+}
+
+header .header__logo {
+  width: 85px;
+}
+header .header__links {
+  margin: auto;
+}
+header .header__links a {
+  padding-right: 55px;
+  text-decoration: none;
+  font-weight: 400;
+  color: #283618;
+}
+header .shopping__cart img {
+  padding-top: 4px;
+}
+
+.flex {
+  display: flex;
+}
+.flex-jc-sb {
+  justify-content: space-between;
+}
+.flex-jc-c {
+  justify-content: center;
+}
+.flex-ai-c {
+  align-items: center;
+}/*# sourceMappingURL=App.css.map */
